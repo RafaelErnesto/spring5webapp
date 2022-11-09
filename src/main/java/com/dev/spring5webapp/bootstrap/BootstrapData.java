@@ -26,7 +26,7 @@ public class BootstrapData implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         System.out.println("Starting Data Bootstrap");
-        
+
         Author bob = new Author("Robert", "Martin");
         Book cleanCode = new Book("Clean Code", "123456");
         Publisher publisher = new Publisher("Oreilly");
